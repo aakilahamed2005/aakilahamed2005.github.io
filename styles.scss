@@ -1,6 +1,17 @@
-
+$bg-primary:#060622;
+$bg-secondary:#0E0E39;
+$primary:#00E1F5;
+$secondary:#FFFFFF;
 
 *{
     box-sizing: border-box;
     font-family: Inter;
+}
+
+body{
+    background-color: $bg-primary;
+}
+
+h1{
+    color: $primary;
 }
