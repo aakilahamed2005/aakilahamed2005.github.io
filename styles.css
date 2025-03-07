@@ -15,6 +15,9 @@ body {
   .section-1 .container .item {
     text-align: center;
   }
+  .section-1 .container .item img {
+    width: 75%;
+  }
   .section-1 .container .item h1 {
     color: #00E1F5;
     font-size: 50px;
