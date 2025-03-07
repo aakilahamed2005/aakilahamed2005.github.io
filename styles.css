@@ -5,6 +5,7 @@
 
 body {
   background-color: #060622;
+  margin: 0px;
 }
 
 .primary_color {
@@ -63,12 +64,23 @@ body {
   .section-2 .container h3 {
     color: #FFFFFF;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
   }
   .section-3 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  footer {
+    margin-top: 200px;
+    background-color: #0E0E39;
+    height: 75px;
+  }
+  footer h3 {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 15px;
+    color: #FFFFFF;
   }
 }
 
