@@ -62,6 +62,8 @@ body {
   }
   .section-2 .container h3 {
     color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
   }
   .section-3 .container {
     display: flex;
