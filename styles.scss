@@ -12,6 +12,89 @@ body{
     background-color: $bg-primary;
 }
 
-h1{
+
+
+.primary_color{
     color: $primary;
+}
+
+@media screen and (max-width:786px){
+
+    /*Common CSS style properties */
+    %section_heading{
+        
+    }
+
+    /*Hero Section */
+    .section-1{
+        .container{
+            display: flex;
+            flex-direction: column;
+            .item{
+                text-align: center;
+
+                img{
+                    margin-top: 30px;
+                    width: 80%;
+                }
+                h1{
+                    color: $primary;
+                    font-size: 50px;
+                }
+                h2{
+                    margin-top: -25px;
+                    color: $secondary;
+                    font-size: 22px;
+                }
+
+                .social_media_links{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+
+                    a{
+                        margin: -25px 10px 0px 10px;
+                        img{
+                            width: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*About me section */
+
+    .section-2{
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 200px;
+
+            .item{
+                margin: 0px 15px 0px 15px;
+            }
+
+            h1{
+                font-size: 30px;
+                color: $secondary;
+                text-align: center;
+            }
+
+            h3{
+                color: $secondary;
+
+            }
+        }
+    }
+
+
+    .section-3{
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
 }
